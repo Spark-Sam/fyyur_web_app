@@ -16,16 +16,14 @@ body {
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
   padding: 0 0 60px;
-  padding-bottom: 10em;
   background-color: #1e0033;
   color: #fff;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  margin-top: 20px;
-  padding-top: 1.5em;
-  height: 80px;
+  padding-top: 1em;
+  height: 60px;
   background-color: #7700cc;
   font-size: large;
   
