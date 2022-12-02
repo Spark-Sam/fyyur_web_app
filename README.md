@@ -40,7 +40,7 @@ pip install Flask-Migrate
 > **Note** - If the specific version of a package is not mentioned, then the default latest stable package will be installed. 
 
 ### 2. Frontend Dependencies
-It's recommended that you have **HTML**, **CSS**, and **Javascript** with [Bootstrap 3](https://getbootstrap.com/docs/3.4/customize/) for the website's frontend. If you are working locally, further instructions are contained in the repo README file.(NOT NESSESARY)
+It's recommended that you have **HTML**, **CSS**, and **Javascript** with [Bootstrap 3](https://getbootstrap.com/docs/3.4/customize/) for the website's frontend. If you are working locally, further instructions are contained in the repo README file.(NOT NECESSARY)
 
 Install [Bootstrap 3](https://getbootstrap.com/docs/3.3/getting-started/) for the website's frontend:
 ```
