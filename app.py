@@ -340,7 +340,7 @@ def show_artist(artist_id):
     "upcoming_shows_count": len(upcoming_shows_data),
   }
 
-  return render_template('pages/show_artist.html', artist=data)
+  return render_template('pages/show_artist.html', artist=artist_data)
 
 #  Update
 #  ----------------------------------------------------------------
