@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-
+SECRET_KEY = os.urandom(32)
 # Enable debug mode.
 DEBUG = True
 
