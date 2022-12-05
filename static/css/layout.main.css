@@ -16,17 +16,11 @@ body {
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
   padding: 0 0 60px;
-  background-color: #1e0033;
-  color: #fff;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  padding-top: 1em;
   height: 60px;
-  background-color: #7700cc;
-  font-size: large;
-  
 }
 
 
@@ -60,11 +54,4 @@ h3 {
 
 h3 > span.orange {
   color: #FF9C44;
-}
-
-.center-footer {
-  position: relative;
-  top: 50%;
-  width: 100%;
-  text-align: center;
 }

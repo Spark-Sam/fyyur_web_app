@@ -7,11 +7,12 @@ DEBUG = True
 
 # Connect to the database
 load_dotenv()
-#DB_NAME = os.environ.get("DB_NAME")
-#DB_USER = os.environ.get("DB_USER")
-#DB_PASSWORD = os.environ.get("DB_PASSWORD")
+DB_USER = os.environ.get("DB_USER")
+DB_PASSWORD = os.environ.get("DB_PASSWORD")
+DB_PATH = os.environ.get("DB_PATH")
+DB_PORT = os.environ.get("DB_PORT")
+DB_NAME = os.environ.get("DB_NAME")
 
 # TODO IMPLEMENT DATABASE URL
-#SQLALCHEMY_DATABASE_URI = 'postgresql://{}:{}@localhost:5432/{}'.format(DB_USER, DB_PASSWORD, DB_NAME)
-SQLALCHEMY_DATABASE_URI = os.environ.get("SQLALCHEMY_DATABASE_URI")
+SQLALCHEMY_DATABASE_URI = 'postgresql://{}:{}@{}:{}/{}'.format(DB_USER, DB_PASSWORD, DB_PATH, DB_PORT, DB_NAME)
 SQLALCHEMY_TRACK_MODIFICATIONS = False
